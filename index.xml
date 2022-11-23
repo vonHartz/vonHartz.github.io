@@ -3,4 +3,10 @@ This is what happened next.</description></item><item><title>Discrete Filter Deb
 How to
 &amp;gt;&amp;gt;&amp;gt; import torch &amp;gt;&amp;gt;&amp;gt; import matplotlib.pyplot as plt &amp;gt;&amp;gt;&amp;gt; def plot(pr, sm, po, channel): ... for i, d in enumerate([pr[channel], sm[channel], po[channel], (sm*pr)[channel]]): ... plt.subplot(1, 4, i+1) ... plt.imshow(d) ... plt.show() &amp;gt;&amp;gt;&amp;gt; pr = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_prior/80.dat&amp;#39;) &amp;gt;&amp;gt;&amp;gt; po = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_post/80.dat&amp;#39;) &amp;gt;&amp;gt;&amp;gt; sm = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_sm/80.dat&amp;#39;) Results for sigma=2
 Channels: 10, 2, 14
-While on 2 it resolves the multimodality, on channel 10 it does not manage to do it.</description></item></channel></rss>
+While on 2 it resolves the multimodality, on channel 10 it does not manage to do it.</description></item><item><title>Curriculum vitae</title><link>https://vonhartz.info/pages/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://vonhartz.info/pages/cv/</guid><description>Currently PhD student at the neurorobotics and robot learning labs, University of Freiburg.
+Specialized in Reinforcement learning, algorithms, cognitive computation.
+Research interests Sequential decision problems, policy learning, embodied cognition.
+Education 2020 - 2022 MSc Computer Science, University of Freiburg (Germany) Minor: Neuroscience
+2019 - 2020 Erasmus stay at ESIEE Paris (France)
+2015 - 2019 BSc Computer Science, University of Freiburg (Germany) Minor: Cognitive Science
+Publications Journals Forthcoming von Hartz, Jan Ole, and Chisari, Eugenio and Welschehold, Tim and Valada, Abhinav.</description></item></channel></rss>
