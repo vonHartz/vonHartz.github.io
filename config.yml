@@ -1,0 +1,42 @@
+baseURL: https://vonhartz.github.io
+languageCode: en-us
+title: Jan Ole von Hartz
+theme: "PaperMod"
+
+params:
+    homeInfoParams:
+        Title: Hello World 
+        Content: I am a PhD student in neurorobotics and robot learning at the University of Freiburg.
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/vonHartz"
+        - name: "rss"
+          url: "https://vonhartz.info/index.xml"
+    ShowReadingTime: true
+    author: "Jan Ole von Hartz"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+menu:
+    main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 20
+        - identifier: archive
+          name: Archive
+          url: /archives/
+          weight: 20
