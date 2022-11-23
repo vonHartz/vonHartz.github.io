@@ -20,19 +20,18 @@ PhD student at the neurorobotics and robot learning labs, University of Freiburg
 
 Reinforcement learning, algorithms, cognitive computation.
 
-<!-- ### Research interests
+### Research interests
 
-Cooling, power series, optics, alchemy, planetary motions, apples. -->
-
+Sequential decision problems, policy learning, embodied cognition.
 
 ## Education
 
-`2020-2022`
+`2020 - 2022`
 __MSc__ Computer Science, University of Freiburg (Germany)
 Minor: Neuroscience
 
-`2019-2020`
-__Erasmus Stay__ at ESIEE Paris (France)
+`2019 - 2020`
+__Erasmus__ stay at ESIEE Paris (France)
 
 `2015 - 2019`
 __BSc__ Computer Science, University of Freiburg (Germany)

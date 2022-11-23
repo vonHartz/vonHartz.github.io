@@ -24,19 +24,23 @@ outputs:
 
 menu:
     main:
+        - identifier: cv
+          name: CV
+          url: /pages/cv/
+          weight: 10
         - identifier: categories
           name: Categories
           url: /categories/
-          weight: 10
+          weight: 20
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 20
+          weight: 30
         - identifier: search
           name: Search
           url: /search/
-          weight: 20
+          weight: 30
         - identifier: archive
           name: Archive
           url: /archives/
-          weight: 20
+          weight: 30
