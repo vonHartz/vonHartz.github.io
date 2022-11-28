@@ -65,6 +65,8 @@ Dames, Hannah and von Hartz, Jan Ole and Kantz, Mario and Riesterer, Nicolas and
 `2022`
 von Hartz, Jan Ole, and Chisari, Eugenio and Welschehold, Tim Valada, Abhinav. ”Self-Supervised Learning of Multi-Object Keypoints for Robotic Manipulation.” In ICRA 2022 Workshop: Reinforcement Learning for Contact-Rich Manipulation.
 
+## Community involvement
+
 ### Reviewer Duties
 
 `2022`
