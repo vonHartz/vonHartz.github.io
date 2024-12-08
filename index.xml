@@ -1,12 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jan Ole von Hartz</title><link>https://vonhartz.info/</link><description>Recent content on Jan Ole von Hartz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 23 Nov 2022 13:31:09 +0100</lastBuildDate><atom:link href="https://vonhartz.info/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>https://vonhartz.info/pages/welcome/</link><pubDate>Wed, 23 Nov 2022 13:31:09 +0100</pubDate><guid>https://vonhartz.info/pages/welcome/</guid><description>This website is an experiment of sorts. Over the last year or so, I have been playing around with logseq as a note taking tool. Looking for a way to better share my notes, I have found the Schrodinger plugin by Aryan Sawhney.
-This is what happened next.</description></item><item><title>Discrete Filter Debug</title><link>https://vonhartz.info/pages/discrete-filter-debug/</link><pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate><guid>https://vonhartz.info/pages/discrete-filter-debug/</guid><description>This is a test/examle post.
-How to
-&amp;gt;&amp;gt;&amp;gt; import torch &amp;gt;&amp;gt;&amp;gt; import matplotlib.pyplot as plt &amp;gt;&amp;gt;&amp;gt; def plot(pr, sm, po, channel): ... for i, d in enumerate([pr[channel], sm[channel], po[channel], (sm*pr)[channel]]): ... plt.subplot(1, 4, i+1) ... plt.imshow(d) ... plt.show() &amp;gt;&amp;gt;&amp;gt; pr = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_prior/80.dat&amp;#39;) &amp;gt;&amp;gt;&amp;gt; po = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_post/80.dat&amp;#39;) &amp;gt;&amp;gt;&amp;gt; sm = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_sm/80.dat&amp;#39;) Results for sigma=2
-Channels: 10, 2, 14
-While on 2 it resolves the multimodality, on channel 10 it does not manage to do it.</description></item><item><title>Curriculum vitae</title><link>https://vonhartz.info/pages/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://vonhartz.info/pages/cv/</guid><description>Currently PhD student at the neurorobotics and robot learning labs, University of Freiburg.
-Specialized in Reinforcement learning, algorithms, cognitive computation.
-Research interests Sequential decision problems, policy learning, embodied cognition.
-Education 2020 - 2022 MSc Computer Science, University of Freiburg (Germany) Minor: Neuroscience
-2019 - 2020 Erasmus stay at ESIEE Paris (France)
-2015 - 2019 BSc Computer Science, University of Freiburg (Germany) Minor: Cognitive Science
-Publications Journals Forthcoming von Hartz, Jan Ole, and Chisari, Eugenio and Welschehold, Tim and Valada, Abhinav.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jan Ole von Hartz</title><link>https://vonhartz.github.io/</link><description>Recent content on Jan Ole von Hartz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 23 Nov 2022 13:31:09 +0100</lastBuildDate><atom:link href="https://vonhartz.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>https://vonhartz.github.io/pages/welcome/</link><pubDate>Wed, 23 Nov 2022 13:31:09 +0100</pubDate><guid>https://vonhartz.github.io/pages/welcome/</guid><description>&lt;p>This website is an experiment of sorts.
+Over the last year or so, I have been playing around with &lt;a href="https://docs.logseq.com">logseq&lt;/a> as a note taking tool.
+Looking for a way to better share my notes, I have found the &lt;a href="https://github.com/sawhney17/logseq-schrodinger">Schrodinger plugin&lt;/a> by Aryan Sawhney.&lt;/p>
+&lt;p>This is what happened next.&lt;/p></description></item><item><title>Discrete Filter Debug</title><link>https://vonhartz.github.io/pages/discrete-filter-debug/</link><pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate><guid>https://vonhartz.github.io/pages/discrete-filter-debug/</guid><description>&lt;p>This is a test/examle post.&lt;/p>
+&lt;p>How to&lt;/p>
+&lt;pre tabindex="0">&lt;code>&amp;gt;&amp;gt;&amp;gt; import torch
+&amp;gt;&amp;gt;&amp;gt; import matplotlib.pyplot as plt
+&amp;gt;&amp;gt;&amp;gt; def plot(pr, sm, po, channel):
+... for i, d in enumerate([pr[channel], sm[channel], po[channel], (sm*pr)[channel]]):
+... plt.subplot(1, 4, i+1)
+... plt.imshow(d)
+... plt.show()
+&amp;gt;&amp;gt;&amp;gt; pr = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_prior/80.dat&amp;#39;)
+&amp;gt;&amp;gt;&amp;gt; po = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_post/80.dat&amp;#39;)
+&amp;gt;&amp;gt;&amp;gt; sm = torch.load(&amp;#39;/export/hartzj/TakeLidOffSaucepan/demos_gt/encodings/dcm_10_keypoints_encoder-resnet101bs128split9010/new_ego/2022_05_03-14_34_44/cam_w_sm/80.dat&amp;#39;)
+&lt;/code>&lt;/pre>&lt;p>Results for sigma=2&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Channels: 10, 2, 14&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>While on 2 it resolves the multimodality, on channel 10 it does not manage to do it. On Channel 14 it further manages to sharpen the cluster, but sometimes it also fails to do that.&lt;/p></description></item><item><title>Curriculum vitae</title><link>https://vonhartz.github.io/pages/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://vonhartz.github.io/pages/cv/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="currently">Currently&lt;/h2>
+&lt;p>PhD student at the neurorobotics and robot learning labs, University of Freiburg.&lt;/p>
+&lt;h3 id="specialized-in">Specialized in&lt;/h3>
+&lt;p>Reinforcement learning, algorithms, cognitive computation.&lt;/p>
+&lt;h3 id="research-interests">Research interests&lt;/h3>
+&lt;p>Sequential decision problems, policy learning, embodied cognition.&lt;/p>
+&lt;h2 id="education">Education&lt;/h2>
+&lt;p>&lt;code>2020 - 2022&lt;/code>
+&lt;strong>MSc&lt;/strong> Computer Science, University of Freiburg (Germany)
+Minor: Neuroscience&lt;/p>
+&lt;p>&lt;code>2019 - 2020&lt;/code>
+&lt;strong>Erasmus&lt;/strong> stay at ESIEE Paris (France)&lt;/p>
+&lt;p>&lt;code>2015 - 2019&lt;/code>
+&lt;strong>BSc&lt;/strong> Computer Science, University of Freiburg (Germany)
+Minor: Cognitive Science&lt;/p></description></item></channel></rss>
